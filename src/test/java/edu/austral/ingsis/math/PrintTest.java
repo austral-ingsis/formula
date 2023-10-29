@@ -55,18 +55,7 @@ public class PrintTest {
      * Case |value| - 8
      */
     @Test
-    public void shouldPrintFunction6() {
-        final String expected = "|value| - 8";
-        final String result = expected;
-
-        assertThat(result, equalTo(expected));
-    }
-
-    /**
-     * Case |value| - 8
-     */
-    @Test
-    public void shouldPrintFunction7() {
+    public void shouldPrintFunction5() {
         final String expected = "|value| - 8";
         final String result = expected;
 
@@ -77,7 +66,7 @@ public class PrintTest {
      * Case (5 - i) * 8
      */
     @Test
-    public void shouldPrintFunction8() {
+    public void shouldPrintFunction6() {
         final String expected = "(5 - i) * 8";
         final String result = expected;
 

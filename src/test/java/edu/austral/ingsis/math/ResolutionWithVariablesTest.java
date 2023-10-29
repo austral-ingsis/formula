@@ -69,7 +69,7 @@ public class ResolutionWithVariablesTest {
     }
 
     /**
-     * Case |value| - 8 where value = 8
+     * Case |value| - 8 where value = -8
      */
     @Test
     public void shouldResolveFunction7() {

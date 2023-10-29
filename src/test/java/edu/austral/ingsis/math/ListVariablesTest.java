@@ -5,7 +5,6 @@ import org.junit.Test;
 import java.util.Collections;
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
@@ -73,20 +72,10 @@ public class ListVariablesTest {
     }
 
     /**
-     * Case |value| - 8
-     */
-    @Test
-    public void shouldListVariablesFunction7() {
-        final List<String> result = Collections.emptyList();
-
-        assertThat(result, containsInAnyOrder("value"));
-    }
-
-    /**
      * Case (5 - i) * 8
      */
     @Test
-    public void shouldListVariablesFunction8() {
+    public void shouldListVariablesFunction7() {
         final List<String> result = Collections.emptyList();
 
         assertThat(result, containsInAnyOrder("i"));
